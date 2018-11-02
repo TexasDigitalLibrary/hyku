@@ -1,0 +1,10 @@
+zh:
+  hyrax:
+    icons:
+      bcdam:     'fa fa-file-text-o'
+    select_type:
+      bcdam:
+        # TODO: translate `human_name` into Chinese
+        description:        "Bcdam 作品"
+        name:               "Bcdam"
+        # TODO: translate `human_name` into Chinese

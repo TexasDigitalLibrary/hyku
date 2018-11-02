@@ -1,0 +1,10 @@
+es:
+  hyrax:
+    icons:
+      bcdam:     'fa fa-file-text-o'
+    select_type:
+      bcdam:
+        # TODO: translate `human_name` into Spanish
+        description:        "Bcdam trabajos"
+        name:               "Bcdam"
+        # TODO: translate `human_name` into Spanish

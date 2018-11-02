@@ -27,4 +27,53 @@ class SolrDocument
 
   attribute :extent, Solr::Array, solr_name('extent')
   attribute :rendering_ids, Solr::Array, solr_name('hasFormat', :symbol)
+
+  def alternative
+    self[Solrizer.solr_name('alternative')]
+  end
+
+  def date
+    self[Solrizer.solr_name('date')]
+  end
+
+  def extent
+    self[Solrizer.solr_name('extent')]
+  end
+
+  def format
+    self[Solrizer.solr_name('format')]
+  end
+
+  def genre
+    self[Solrizer.solr_name('genre')]
+  end
+
+  def place
+    self[Solrizer.solr_name('place')]
+  end
+
+  def series_title
+    self[Solrizer.solr_name('series_title')]
+  end
+
+  def time_period
+    self[Solrizer.solr_name('alternative')]
+  end
+
+  def resource_access_rights
+    self[Solrizer.solr_name('resource_access_rights')]
+  end
+
+  def aspaceurl
+    self[Solrizer.solr_name('aspaceurl')]
+  end
+
+  def donor
+    self[Solrizer.solr_name('donor')]
+  end
+  
+  def note
+    self[Solrizer.solr_name('note')]
+  end
+  
 end

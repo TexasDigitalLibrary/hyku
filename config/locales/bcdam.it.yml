@@ -1,0 +1,8 @@
+it:
+  hyrax:
+    icons:
+      bcdam:     'fa fa-file-text-o'
+    select_type:
+      bcdam:
+        description:        "Bcdam opere"
+        name:               "Bcdam"

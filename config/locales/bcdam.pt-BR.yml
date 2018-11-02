@@ -1,0 +1,8 @@
+pt-BR:
+  hyrax:
+    icons:
+      bcdam:     'fa fa-file-text-o'
+    select_type:
+      bcdam:
+        description:        "Bcdam trabalhos"
+        name:               "Bcdam"
