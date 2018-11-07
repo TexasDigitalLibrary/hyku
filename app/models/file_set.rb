@@ -11,6 +11,14 @@ class FileSet < ActiveFedora::Base
   def rendering_ids
     to_param
   end
+  
+  property :transcript, predicate: ::RDF::Vocab::SCHEMA.transcript do |index|
+    index.as :stored_searchable
+  end
+
+  # This must be included at the end, because it finalizes the metadata
+  # schema (by adding accepts_nested_attributes)
+  include ::Hyrax::BasicMetadata
 
   private
 
