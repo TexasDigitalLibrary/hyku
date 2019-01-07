@@ -4,7 +4,7 @@ module Hyrax
   # Generated form for Bcdam
   class BcdamForm < Hyrax::Forms::WorkForm
     self.model_class = ::Bcdam
-    self.terms += %i[
+    self.terms += [
       :resource_type,
       :alternative,
       :date,
